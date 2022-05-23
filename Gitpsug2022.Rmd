@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+library(readr)
+adae <-read_csv
+
+
+
+data viz
+library(ggplot2)
+
+ggplot(adae) +
+ aes(x = SEX, y = AGE, group = ARM) +
+ geom_boxplot(shape = "circle", fill = "#112446") +
+ theme_minimal()
+
+
